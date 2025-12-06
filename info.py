@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'LeoX')
 API_ID = int(environ.get('API_ID', '27549502'))
 API_HASH = environ.get('API_HASH', '35892287036e27af8e9298f03483fdd4')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7735629958:AAHS6SJWRoVxvCgmiADn6lswZ3c4PMpCfxQ")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7735629958:AAHncpwZIUidB_KATq1yeUirHVH7D2oKDjM")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -45,7 +45,7 @@ reqst_channel = environ.get('REQST_CHANNEL', '-1002595154363')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Channel Is For Index Request 
-INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1002805106938'))
+INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', '-1002722906058 -1002805106938'))
 
 # This Is Your Bot Support Group Id , Here Bot Will Not Give File Because This Is Support Group.
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002622267755')
@@ -196,6 +196,7 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
